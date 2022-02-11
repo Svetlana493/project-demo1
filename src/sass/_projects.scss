@@ -1,0 +1,44 @@
+.projects-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 66px;
+  text-align: center;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-list__item {
+  max-width: 350px;
+  list-style: none;
+}
+
+.projects-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.projects-list__box {
+  display: flex;
+}
+
+.projects-list__img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.projects-list__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.projects-list__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
